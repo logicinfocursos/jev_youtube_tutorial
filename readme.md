@@ -43,6 +43,9 @@ O custo é estimado a partir dos tokens retornados pelas APIs e das tarifas por 
 - O LLM precisa gerar JSON em texto, que pode falhar; falhas de formato aparecem como erro no chamado.
 - Sem gabarito, a concordância entre os métodos mostra onde eles divergem, não qual está certo.
 
+## Prompt
+Caso queira gerar esse app através de um harness como Claude Code, Codex, Gemini, DeepSeek, etc, o prompt está no arquivo prompt.md (raíz do projeto).
+
 ## Arquivos
 
 - `server.mjs`: servidor, chamadas ao Jev e aos LLMs, cálculo de custo.
