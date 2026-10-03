@@ -1,0 +1,14 @@
+[
+  {"id":"T-1001","segment":"prospect","subject":"Demonstração para 120 analistas","message":"Estamos avaliando uma plataforma de IA para o time de operações. Podemos agendar uma demonstração e receber uma proposta anual?","createdAt":"2026-10-01T09:12:00Z"},
+  {"id":"T-1002","segment":"subscriber","subject":"Cobrança duplicada no cartão","message":"A fatura de setembro foi cobrada duas vezes. Preciso do estorno hoje porque o valor apareceu em duplicidade no meu cartão corporativo.","createdAt":"2026-10-01T09:24:00Z"},
+  {"id":"T-1003","segment":"subscriber","subject":"SSO deixou de autenticar","message":"Desde esta manhã ninguém da nossa empresa consegue entrar pelo SAML. A operação inteira está parada.","createdAt":"2026-10-01T09:31:00Z"},
+  {"id":"T-1004","segment":"prospect","subject":"Dúvida sobre LGPD e hospedagem","message":"Os dados ficam no Brasil? Vocês possuem DPA e informações sobre retenção para nossa avaliação jurídica?","createdAt":"2026-10-01T09:45:00Z"},
+  {"id":"T-1005","segment":"subscriber","subject":"Como exportar relatórios?","message":"Onde encontro a exportação CSV do painel de uso mensal? Não estou achando a opção.","createdAt":"2026-10-01T10:02:00Z"},
+  {"id":"T-1006","segment":"prospect","subject":"Erro no teste gratuito","message":"Criei uma conta para testar, mas a tela de criação do primeiro agente fica carregando sem concluir.","createdAt":"2026-10-01T10:18:00Z"},
+  {"id":"T-1007","segment":"subscriber","subject":"Suspeita de chave exposta","message":"Encontramos uma chave de API em um repositório público e já a revogamos. Precisamos confirmar se houve uso indevido e rotacionar credenciais.","createdAt":"2026-10-01T10:26:00Z"},
+  {"id":"T-1008","segment":"subscriber","subject":"Aumentar limite de usuários","message":"Vamos incluir mais 45 pessoas no workspace no próximo mês. Como funciona o aditivo e o novo valor?","createdAt":"2026-10-01T10:41:00Z"},
+  {"id":"T-1009","segment":"prospect","subject":"Integração com nosso CRM","message":"A solução integra com HubSpot via API ou webhook? Esse ponto define se avançamos para a prova de conceito.","createdAt":"2026-10-01T10:53:00Z"},
+  {"id":"T-1010","segment":"subscriber","subject":"Resposta incorreta em produção","message":"O agente de atendimento começou a devolver respostas erradas após alterarmos a base de conhecimento. Há clientes recebendo orientações equivocadas.","createdAt":"2026-10-01T11:07:00Z"},
+  {"id":"T-1011","segment":"subscriber","subject":"Cancelar no fim do ciclo","message":"Não vamos renovar no próximo ciclo. Por favor, orientem sobre exportação dos dados e encerramento da conta.","createdAt":"2026-10-01T11:19:00Z"},
+  {"id":"T-1012","segment":"prospect","subject":"Preciso falar com vendas hoje","message":"O orçamento precisa ser aprovado ainda hoje. Se não recebermos uma proposta e um contato comercial, seguiremos com outro fornecedor.","createdAt":"2026-10-01T11:32:00Z"}
+]

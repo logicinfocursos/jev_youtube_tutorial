@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jev vs LLM Agent</title><link rel="stylesheet" href="/style.css"></head>
+<body><main>
+  <header><div><p class="eyebrow">SYSTEM ONE · EXPERIMENTO REPRODUZÍVEL</p><h1>Jev vs LLM Agent</h1><p class="sub">Classifique tickets de um SaaS de IA e compare uma decisão tipada com um LLM que gera JSON.</p></div><span class="pill">12 tickets fictícios</span></header>
+  <section class="controls"><button id="analyzeJev" class="jev-button">▶ Analisar com Jev</button><label>LLM de comparação<select id="provider"><option value="deepseek">DeepSeek Chat</option><option value="haiku">Claude Haiku 4.5</option><option value="luna">OpenAI GPT-6 Luna</option></select></label><button id="analyzeLlm" class="llm-button">▶ Analisar com LLM</button><p id="status">Rode um provedor por vez e acompanhe a varredura ticket a ticket.</p></section>
+  <section id="summary" class="summary hidden"></section>
+  <section class="legend"><span><b>Departamentos</b> Vendas · Suporte · Financeiro · Segurança/Jurídico</span><span><b>Urgência</b> Crítica · Alta · Normal · Baixa</span><span><b>Sinal comercial</b> potencial de assinatura para leads, risco de cancelamento para assinantes</span></section>
+  <section><table><thead><tr><th>Ticket</th><th>Contexto</th><th>Jev</th><th id="llmHeading">LLM</th></tr></thead><tbody id="tickets"><tr><td colspan="4">Carregando tickets…</td></tr></tbody></table></section>
+  <footer><strong>Leitura correta:</strong> compare o mesmo conjunto, prompt, região e concorrência. Os custos exibidos são estimativas configuráveis, não uma promessa de preço.</footer>
+</main><script src="/app.js"></script></body></html>
