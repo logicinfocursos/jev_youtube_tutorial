@@ -3,7 +3,7 @@
 
 App de demonstração que compara o **Jev** (modelo System One da TypeSafe) com um **LLM agent** na triagem de chamados de suporte. Ele serve apenas para ilustrar, em um exemplo prático, como implementar o Jev com o Claude Code. **Todos os dados são fictícios.**
 
-<img src="/apps/demo/assets/app-screenshoot.png">
+<img src="./assets/app-screenshoot.png">
 
 ## O que o app faz
 
