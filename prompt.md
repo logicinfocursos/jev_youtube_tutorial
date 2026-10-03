@@ -31,6 +31,4 @@ Depois cole o prompt abaixo:
 >
 > **Segurança e honestidade:** leia `TYPESAFE_API_KEY`, `DEEPSEEK_API_KEY`, `ANTHROPIC_API_KEY` e `OPENAI_API_KEY` de um `.env` no servidor; nunca exponha chaves no navegador. Calcule o custo com tarifas por milhão de tokens configuráveis no `.env` (`*_INPUT_USD_PER_MTOK`, `*_OUTPUT_USD_PER_MTOK`). Não simule respostas: se uma chave estiver ausente, retorne um erro explícito. Crie `.env.example`, `package.json` (`npm start`) e um README curto dizendo que o teste mede um cenário específico e que os dados são fictícios.
 
-## Dica para o vídeo
 
-Substitua as chaves por variáveis de ambiente e corte qualquer trecho do `.env` que mostre valores. Os preços são configurações do experimento; confira a página de preços de cada fornecedor antes de gravar números.
